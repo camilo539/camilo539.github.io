@@ -129,4 +129,38 @@ body {
   .boton4:hover {
     background-color:rgb(58, 132, 205);
   }
-  
+
+h1 {
+  display: flex;
+    justify-content: center;
+    font-size: xxx-large;
+    color: cornflowerblue;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  color: #86abee;
+  font-size: 30px;
+}
+
+h3 {
+  display: flex;
+    justify-content: center;
+    color: cornflowerblue;
+    font-size: 25px;
+}
+
+h4 {
+  display: flex;
+  justify-content: center;
+  color: cornflowerblue;
+  font-size: 25px;
+}
+
+h5 {
+  display: flex;
+  justify-content: center;
+  color: cornflowerblue;
+  font-size: 25px;
+}

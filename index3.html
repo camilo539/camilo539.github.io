@@ -12,23 +12,75 @@
   </head>
   <body>
        <div class="container"> <!--Esta etiqueta es la que contiene todo el contenido de la pagina -->
+
            <div class="encabezado"> <!--Esta etiqueta guardara el titulo y lo primero de la pagina -->
+
             <div class="botones">  <!--Esta etiqueta guardara los botones-->
+
               <a href="index2.html">
                 <button class="boton1">Inicio</button>
               </a>
+
               <a href="index.html">
                 <button class="boton2">Biografia</button>
               </a>
+
               <a href="index1.html">
                 <button class="boton3">Blog</button>
               </a>
+
                 <button class="boton4">Tutorial Git</button>
             </div>
+
               <h1>Tutorial de Github</h1>
+
           </div>
-          <div class="contenido-principal" style="text-align: center;">
-            <h2></h2>
+
+          <div class="contenido-principal">
+
+            <div class="repositorio-local" style="font-size: larger;">
+
+              <h2>Inicialización del repositorio localmente</h2>
+
+              <h3>Inicio de un nuevo repositorio en Git: con git init</h3>
+
+                  <p>Para crear un nuevo repositorio se usa el comando <a href="https://www.atlassian.com/es/git/tutorials/setting-up-a-repository/git-init" style="color: coral;">"Git init"</a>
+                  es un comando que solo se utiliza una vez durante la configuración del repositorio nuevo. Al ejecutar este comando, se creara un nuevo subdirectorio ".git" en tu directorio en tu trabajo actual. También se creará una nueva rama principal.</p>
+
+              <h4>Versión de el blog existente con un repertorio nuevo</h4>
+
+                <p>En este caso, ya que tenemos el blog y ya contamos con la carpeta del proyecto, le damos click derecho dentro de la carpeta y le damos en abrir "open git bash here" y luego ejecutamos el comando <a href="https://www.atlassian.com/es/git/tutorials/setting-up-a-repository/git-init" style="color: coral;">"Git init"</a>.</p>
+
+                <img src="Imagenes/tutorial git/primera.png" alt="" style="width: 531px;
+                height: 265px;">
+
+                <p>Apuntar <a href="https://www.atlassian.com/es/git/tutorials/setting-up-a-repository/git-init" style="color: coral;">"Git init"</a> a un directorio de proyecto existente hará que se ejecute la misma configuración de inicio mencionada arriba, pero en el ámbito de ese directorio.</p>
+
+                <img src="Imagenes/tutorial git/segunda.png" alt="" style="width: 361px;
+                height: 194px;">
+
+                <h5>Agregar con el comando "add" para que git pueda rastrear los archivos del blog</h5>
+
+                <p>Para agregar los archivos, usamos el comando <a href="https://www.atlassian.com/es/git/tutorials/saving-changes" style="color: coral;">"Git add"</a>, así como este ejemplo :</p>
+
+                <img src="Imagenes/tutorial git/tercera.png" alt="">
+
+                <p>Cuando ya termines de agregar tus archivos y para corroborar si esto es asi tienes que poner el comando "status", asi como este ejemplo:</p>
+
+                <img src="Imagenes/tutorial git/cuarta.png" alt="">
+
+                <p>Después de seguir el paso anterior, te debe salir algo como esto :</p>
+
+                <img src="Imagenes/tutorial git/quinta.png" alt="">
+
+                <p>Una vez ya rastreados los archivos pasan a un estado de <a href="https://www.atlassian.com/es/git/tutorials/saving-changes/git-stash" style="color: coral;">"Staged o stash"</a>. Ahora tendremos que pasar los archivos a un estado de <a href="https://www.atlassian.com/es/git/tutorials/saving-changes/git-commit" style="color: coral;">"commit"</a> de la siguiente forma:</p>
+
+                <img src="Imagenes/tutorial git/sexta.png" alt="">
+
+                <p>Ya agregados los archivos te debe aparecer esto :</p>
+
+                <img src="Imagenes/tutorial git/septima.png" alt="">
+            </div>
 		</div>
       </div>
       </div>
