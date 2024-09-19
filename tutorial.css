@@ -164,3 +164,10 @@ h5 {
   color: cornflowerblue;
   font-size: 25px;
 }
+
+h6 {
+  display: flex;
+  justify-content: center;
+  color: cornflowerblue;
+  font-size: 25px;
+}
