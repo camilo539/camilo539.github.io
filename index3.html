@@ -47,111 +47,211 @@
                   <p>Para crear un nuevo repositorio se usa el comando <a href="https://www.atlassian.com/es/git/tutorials/setting-up-a-repository/git-init" style="color: coral;">"Git init"</a>
                   es un comando que solo se utiliza una vez durante la configuración del repositorio nuevo. Al ejecutar este comando, se creara un nuevo subdirectorio ".git" en tu directorio en tu trabajo actual. También se creará una nueva rama principal.</p>
 
+                  <br>
+
               <h4>Versión de el blog existente con un repertorio nuevo</h4>
 
+              <br>
+
                 <p>En este caso, ya que tenemos el blog y ya contamos con la carpeta del proyecto, le damos click derecho dentro de la carpeta y le damos en abrir "open git bash here" y luego ejecutamos el comando <a href="https://www.atlassian.com/es/git/tutorials/setting-up-a-repository/git-init" style="color: coral;">"Git init"</a>.</p>
+
+                <br>
 
                 <img src="Imagenes/tutorial git/primera.png" alt="" style="width: 531px;
                 height: 265px;">
 
+                <br>
+
                 <p>Apuntar <a href="https://www.atlassian.com/es/git/tutorials/setting-up-a-repository/git-init" style="color: coral;">"Git init"</a> a un directorio de proyecto existente hará que se ejecute la misma configuración de inicio mencionada arriba, pero en el ámbito de ese directorio.</p>
+
+                <br>
 
                 <img src="Imagenes/tutorial git/segunda.png" alt="" style="width: 361px;
                 height: 194px;">
 
+                <br>
+
                 <h5>Agregar con el comando "add" para que git pueda rastrear los archivos del blog</h5>
+
+                <br>
 
                 <p>Para agregar los archivos, usamos el comando <a href="https://www.atlassian.com/es/git/tutorials/saving-changes" style="color: coral;">"Git add"</a>, así como este ejemplo :</p>
 
+                <br>
+
                 <img src="Imagenes/tutorial git/tercera.png" alt="">
+
+                <br>
 
                 <p>Cuando ya termines de agregar tus archivos y para corroborar si esto es asi tienes que poner el comando "status", asi como este ejemplo:</p>
 
+                <br>
+
                 <img src="Imagenes/tutorial git/cuarta.png" alt="">
+
+                <br>
 
                 <p>Después de seguir el paso anterior, te debe salir algo como esto :</p>
 
                 <img src="Imagenes/tutorial git/quinta.png" alt="">
 
+                <br>
+
                 <p>Una vez ya rastreados los archivos pasan a un estado de <a href="https://www.atlassian.com/es/git/tutorials/saving-changes/git-stash" style="color: coral;">"Staged o stash"</a>. Ahora tendremos que pasar los archivos a un estado de <a href="https://www.atlassian.com/es/git/tutorials/saving-changes/git-commit" style="color: coral;">"commit"</a> de la siguiente forma:</p>
+
+                <br>
 
                 <img src="Imagenes/tutorial git/sexta.png" alt="">
 
+                <br>
+
                 <p>Ya agregados los archivos te debe aparecer esto :</p>
+
+                <br>
 
                 <img src="Imagenes/tutorial git/septima.png" alt="">
 
+                <br>
+
                 <p>Si decidimos hacer un cambio desde nuestro editor de código, debemos comitarlo también desde nuestro bash para que se actualice. Para hacerlo, primero damos otra vez "git status", para ver el estado y aparecerán los archivos que modificamos en el editor de código, algo como esto :</p>
+
+                <br>
 
                 <img src="Imagenes/tutorial git/octava.png" alt="">
 
+                <br>
+
                 <p>Cuando sepamos cuales son los archivos que tengamos que subir, los agregamos como ya lo explicamos antes :</p>
+
+                <br>
 
                 <img src="Imagenes/tutorial git/novena.png" alt="">
 
+                <br>
+
                 <p>Ya que los agregamos, los vamos a comitar, subiendo los cambios como lo hicimos en el ejemplo anterior :</p>
+
+                <br>
 
                 <img src="Imagenes/tutorial git/decima.png" alt="">
 
+                <br>
+
                 <p>Y ahí nos mostrara todos los cambios que hicimos y las líneas de código que se modificaron e incluyeron.</p>
+
+                <br>
 
                   <h6>Creacion de branches</h6>
 
+                  <br>
+
                   <p>Para crear una nueva ramificación o una <a href="https://www.atlassian.com/es/git/tutorials/using-branches" style="color: coral;">"Branch"</a> usaremos el comando <b style="color: aqua;">git checkout -b "nombre de la ramificación que desees"</b>.</p>
+
+                  <br>
 
                   <img src="Imagenes/tutorial git/onceava.png" alt="">
 
+                  <br>
+
                   <p>Ya nos saldra la rama o el <a href="https://www.atlassian.com/es/git/tutorials/using-branches" style="color: coral;">"Branch"</a> para empezar a trabajar en ella.</p>
+
+                  <br>
 
                   <img src="Imagenes/tutorial git/doceava.png" alt="">
 
+                  <br>
+
                   <p>Si por ejemplo quiero agregarle algo mas a la <a href="https://www.atlassian.com/es/git/tutorials/using-branches" style="color: coral;">"Branch"</a>, hago lo mismo que los ejemplos pasados, uso <a href="https://www.atlassian.com/es/git/tutorials/saving-changes" style="color: coral;">"Git add"</a>, despues que esten en <a href="https://www.atlassian.com/es/git/tutorials/saving-changes/git-stash" style="color: coral;">"Staged o stash"</a>. y despues el <a href="https://www.atlassian.com/es/git/tutorials/saving-changes/git-commit" style="color: coral;">"commit"</a>. Eso ya lo sabemos, pero si quieres cambiarte de "Branch" y no te acuerdas como ver las "Branchs", usas el siguiente comando :</p>
+
+                  <br>
 
                   <img src="Imagenes/tutorial git/treceava.png" alt="">
 
+                  <br>
+
                   <p>Ya cuando veas cuales son las <a href="https://www.atlassian.com/es/git/tutorials/using-branches" style="color: coral;">"Branch"</a> que tienes, usas el <a href="https://www.atlassian.com/es/git/tutorials/using-branches/git-checkout" style="color: coral;">"git checkout"</a> y el nombre de la rama. Por ejemplo :</p>
+
+                  <br>
 
                   <img src="Imagenes/tutorial git/catorceava.png" alt="">
 
+                  <br>
+
                   <p>Ya si queremos trabajar en la branch nueva y hacer nuevos cambios, esto funcionara como si fuera una nueva version de nuestro blog, pero hay una forma de actualizarlo y unir estas dos ramificaciones, con el comando <a href="https://www.atlassian.com/es/git/tutorials/using-branches/git-merge" style="color: coral;">"git merge"</a>.</p>
+
+                  <br>
 
                   <p>Para hacerlo metamonos nuevamente a la primera rama con el <a href="https://www.atlassian.com/es/git/tutorials/using-branches/git-checkout" style="color: coral;">"git checkout"</a>, la rama "master" y usamos el git merge y (nombre de la rama que deseas unir)</p>
 
+                  <br>
+
                   <img src="Imagenes/tutorial git/quinceava.png" alt="">
+
+                  <br>
 
                   <p>Asi se unirán las dos ramas y se actualizara la rama principal, la master, si deseas borrar la ramificación secundaria, haz esto :</p>
 
+                  <br>
+
                   <img src="Imagenes/tutorial git/decimosexto.png" alt="">
+
+                  <br>
 
                   <p>Asi como vemos la Branch quedo eliminada y ya solo esta la master.</p>
 
+                  <br>
+
                   <h6>Como agregar un repositorio remoto</h6>
 
+                  <br>
+
                   <p>Para agregar un repositorio remoto, primero tienes que subirlo a internet (en este caso a <a href="https://es.wikipedia.org/wiki/GitHub" style="color: coral;">GitHub</a>) y ya que este subido el repositorio desde la terminal, nosotros usaremos el comando : (git remote add origin) y el nombre del repositorio. Sino sabes bien cual es el link y el nombre, tienes que entrar al repositorio y en la parte donde dice "<>Code", lo presionas y le copias el link de <a href="https://www.cloudflare.com/es-es/learning/ssl/what-is-https/" style="color: coral;">"HTTPS"</a>.</p>
+
+                  <br>
 
                   <img src="Imagenes/tutorial git/decimaseptima.png" alt="" style="width: 494px;
                   height: 272px;">
 
+                  <br>
+
                   <p>Ya cuando lo sepas simplemente usas el comando git remote add, algo asi:</p>
+
+                  <br>
 
                   <img src="Imagenes/tutorial git/decimaoctava.png" alt="">
 
+                  <br>
+
                   <p>Ya que estemos remotamente en el repositorio de GitHub, usamos <a href="https://www.atlassian.com/es/git/tutorials/syncing/git-push" style="color: coral;">"git push"</a> (nombre que le pusimos(en este caso "origin")) y la rama que hicimos los cambios para actualizar en este caso, la master.</p>
+
+                  <br>
 
                   <img src="Imagenes/tutorial git/decimonovena.png" alt="">
 
+                  <br>
+
                   <p>Cuando pongas el comando, si eres primerizo, te saldrá una ventana en la que tendrás que registrarte :</p>
 
+                  <br>
+
                   <img src="Imagenes/tutorial git/vigesima.png" alt="">
+
+                  <br>
 
                   <p>Ya cuando te registres y si hiciste los pasos bien, te aparecerá esto :</p>
 
                   <img src="Imagenes/tutorial git/vigesimauno.png" alt="">
 
+                  <br>
+
                   <p>la mejor forma de revisar si todo esta bien, es ir al GitHub y revisarlo por tu cuenta.</p>
+                  
+                  <br>
 
                   <img src="Imagenes/tutorial git/vigesimasegunda.png" alt="" style="width: 494px;
                   height: 272px;">
+
+                  <br>
 
                   <p>Ya cuando te aparezcan en el GitHub, puedes comparar las dos versiones y ver que fue lo que cambio en ambas, aquí me lo muestra : </p>
 
