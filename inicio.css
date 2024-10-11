@@ -180,6 +180,7 @@ h2 {
 }
 
 .imagen-inicio {
+  border-image: 20px;
   width: 1200px;
   height: 800px;
 }
