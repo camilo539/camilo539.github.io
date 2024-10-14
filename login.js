@@ -7,7 +7,9 @@ document.getElementById('registerForm').addEventListener('submit', function(e) {
     const users = JSON.parse(localStorage.getItem('users')) || {};
 
     if (users[username]) {
+
         showMessage('El usuario ya existe. Intenta con otro.');
+        
     } else {
         users[username] = password;
         
