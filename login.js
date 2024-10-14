@@ -10,7 +10,9 @@ document.getElementById('registerForm').addEventListener('submit', function(e) {
         showMessage('El usuario ya existe. Intenta con otro.');
     } else {
         users[username] = password;
+        
         localStorage.setItem('users', JSON.stringify(users));
+
         showMessage('Registro exitoso. Puedes iniciar sesión ahora.');
     }
 });
